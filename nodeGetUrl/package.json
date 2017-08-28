@@ -1,0 +1,30 @@
+{
+  "name": "nodegeturl",
+  "version": "1.0.0",
+  "description": "Node get URL",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bernardbr/ws-samples.git"
+  },
+  "keywords": [
+    "example"
+  ],
+  "author": "bernardbr",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bernardbr/ws-samples/issues"
+  },
+  "homepage": "https://github.com/bernardbr/ws-samples#readme",
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4"
+  }
+}
