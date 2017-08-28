@@ -8,7 +8,7 @@ bodyParser = require('body-parser');
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
-var routes = require('./api/routes/urlRoute.js');
+let routes = require('./api/routes/urlRoute.js');
 routes(app);
 
 app.listen(port);
